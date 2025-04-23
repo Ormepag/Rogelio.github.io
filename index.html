@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Web | Desarrollo y Mantenimiento</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo">
+            <h1>TuNombre</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero (Inicio) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Desarrollador Web Full Stack</h2>
+            <p>Creación, diseño y mantenimiento de sitios web modernos.</p>
+            <a href="#proyectos" class="btn">Ver Proyectos</a>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <h2>Sobre Mí</h2>
+        <div class="about-content">
+            <img src="img/foto-perfil.jpg" alt="Tu foto">
+            <p>
+                ¡Hola! Soy [TuNombre], desarrollador web con experiencia en HTML, CSS, JavaScript y más. 
+                Me especializo en crear sitios web responsivos, optimizados y fáciles de mantener.
+            </p>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="projects">
+        <h2>Mis Proyectos</h2>
+        <div class="projects-grid">
+            <!-- Proyecto 1 -->
+            <div class="project-card">
+                <img src="img/proyecto1.jpg" alt="Proyecto 1">
+                <h3>Landing Page Moderna</h3>
+                <p>HTML, CSS, JavaScript</p>
+                <a href="#" class="btn">Ver Detalles</a>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="project-card">
+                <img src="img/proyecto2.jpg" alt="Proyecto 2">
+                <h3>E-commerce</h3>
+                <p>React, Node.js, MongoDB</p>
+                <a href="#" class="btn">Ver Detalles</a>
+            </div>
+            <!-- Añade más proyectos -->
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="skills">
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <!-- Añade más habilidades -->
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TuNombre. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
